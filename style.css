@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* Reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    color: white;
+    font-size: 18px;
+}
+
+header{
+    height: 90px;
+    background-color: #799be6;
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+main{
+    padding: 5px;
+    background-color: rgb(37, 37, 37);
+}
+
+h2{
+    font-size: 28px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+h2:hover{
+    color: #799be6;
+}
+
+.estadisticas{
+    width: auto;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid white;
+}
+
+.button{
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+    cursor:pointer;
+    background: #799be6;
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4px #799be6;
+    border-radius: 10px;
+}
